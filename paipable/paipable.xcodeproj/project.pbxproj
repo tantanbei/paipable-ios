@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D280FA921E0511AC0093C3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280FA911E0511AC0093C3AC /* AppDelegate.swift */; };
+		D280FA941E0511AC0093C3AC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280FA931E0511AC0093C3AC /* FirstViewController.swift */; };
+		D280FA961E0511AC0093C3AC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280FA951E0511AC0093C3AC /* SecondViewController.swift */; };
+		D280FA991E0511AC0093C3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D280FA971E0511AC0093C3AC /* Main.storyboard */; };
+		D280FA9B1E0511AC0093C3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D280FA9A1E0511AC0093C3AC /* Assets.xcassets */; };
+		D280FA9E1E0511AC0093C3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D280FA9C1E0511AC0093C3AC /* LaunchScreen.storyboard */; };
+		D280FAA91E0511AC0093C3AC /* paipableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280FAA81E0511AC0093C3AC /* paipableTests.swift */; };
+		D280FAB41E0511AC0093C3AC /* paipableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280FAB31E0511AC0093C3AC /* paipableUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D280FAA51E0511AC0093C3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D280FA861E0511AC0093C3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D280FA8D1E0511AC0093C3AC;
+			remoteInfo = paipable;
+		};
+		D280FAB01E0511AC0093C3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D280FA861E0511AC0093C3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D280FA8D1E0511AC0093C3AC;
+			remoteInfo = paipable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D280FA8E1E0511AC0093C3AC /* paipable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paipable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D280FA911E0511AC0093C3AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D280FA931E0511AC0093C3AC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D280FA951E0511AC0093C3AC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D280FA981E0511AC0093C3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D280FA9A1E0511AC0093C3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D280FA9D1E0511AC0093C3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D280FA9F1E0511AC0093C3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D280FAA41E0511AC0093C3AC /* paipableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paipableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D280FAA81E0511AC0093C3AC /* paipableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paipableTests.swift; sourceTree = "<group>"; };
+		D280FAAA1E0511AC0093C3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D280FAAF1E0511AC0093C3AC /* paipableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paipableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D280FAB31E0511AC0093C3AC /* paipableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paipableUITests.swift; sourceTree = "<group>"; };
+		D280FAB51E0511AC0093C3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D280FA8B1E0511AC0093C3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D280FAA11E0511AC0093C3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D280FAAC1E0511AC0093C3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D280FA851E0511AC0093C3AC = {
+			isa = PBXGroup;
+			children = (
+				D280FA901E0511AC0093C3AC /* paipable */,
+				D280FAA71E0511AC0093C3AC /* paipableTests */,
+				D280FAB21E0511AC0093C3AC /* paipableUITests */,
+				D280FA8F1E0511AC0093C3AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D280FA8F1E0511AC0093C3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D280FA8E1E0511AC0093C3AC /* paipable.app */,
+				D280FAA41E0511AC0093C3AC /* paipableTests.xctest */,
+				D280FAAF1E0511AC0093C3AC /* paipableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D280FA901E0511AC0093C3AC /* paipable */ = {
+			isa = PBXGroup;
+			children = (
+				D280FA911E0511AC0093C3AC /* AppDelegate.swift */,
+				D280FA931E0511AC0093C3AC /* FirstViewController.swift */,
+				D280FA951E0511AC0093C3AC /* SecondViewController.swift */,
+				D280FA971E0511AC0093C3AC /* Main.storyboard */,
+				D280FA9A1E0511AC0093C3AC /* Assets.xcassets */,
+				D280FA9C1E0511AC0093C3AC /* LaunchScreen.storyboard */,
+				D280FA9F1E0511AC0093C3AC /* Info.plist */,
+			);
+			path = paipable;
+			sourceTree = "<group>";
+		};
+		D280FAA71E0511AC0093C3AC /* paipableTests */ = {
+			isa = PBXGroup;
+			children = (
+				D280FAA81E0511AC0093C3AC /* paipableTests.swift */,
+				D280FAAA1E0511AC0093C3AC /* Info.plist */,
+			);
+			path = paipableTests;
+			sourceTree = "<group>";
+		};
+		D280FAB21E0511AC0093C3AC /* paipableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D280FAB31E0511AC0093C3AC /* paipableUITests.swift */,
+				D280FAB51E0511AC0093C3AC /* Info.plist */,
+			);
+			path = paipableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D280FA8D1E0511AC0093C3AC /* paipable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D280FAB81E0511AC0093C3AC /* Build configuration list for PBXNativeTarget "paipable" */;
+			buildPhases = (
+				D280FA8A1E0511AC0093C3AC /* Sources */,
+				D280FA8B1E0511AC0093C3AC /* Frameworks */,
+				D280FA8C1E0511AC0093C3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paipable;
+			productName = paipable;
+			productReference = D280FA8E1E0511AC0093C3AC /* paipable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D280FAA31E0511AC0093C3AC /* paipableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D280FABB1E0511AC0093C3AC /* Build configuration list for PBXNativeTarget "paipableTests" */;
+			buildPhases = (
+				D280FAA01E0511AC0093C3AC /* Sources */,
+				D280FAA11E0511AC0093C3AC /* Frameworks */,
+				D280FAA21E0511AC0093C3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D280FAA61E0511AC0093C3AC /* PBXTargetDependency */,
+			);
+			name = paipableTests;
+			productName = paipableTests;
+			productReference = D280FAA41E0511AC0093C3AC /* paipableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D280FAAE1E0511AC0093C3AC /* paipableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D280FABE1E0511AC0093C3AC /* Build configuration list for PBXNativeTarget "paipableUITests" */;
+			buildPhases = (
+				D280FAAB1E0511AC0093C3AC /* Sources */,
+				D280FAAC1E0511AC0093C3AC /* Frameworks */,
+				D280FAAD1E0511AC0093C3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D280FAB11E0511AC0093C3AC /* PBXTargetDependency */,
+			);
+			name = paipableUITests;
+			productName = paipableUITests;
+			productReference = D280FAAF1E0511AC0093C3AC /* paipableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D280FA861E0511AC0093C3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "谈凯德";
+				TargetAttributes = {
+					D280FA8D1E0511AC0093C3AC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					D280FAA31E0511AC0093C3AC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D280FA8D1E0511AC0093C3AC;
+					};
+					D280FAAE1E0511AC0093C3AC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D280FA8D1E0511AC0093C3AC;
+					};
+				};
+			};
+			buildConfigurationList = D280FA891E0511AC0093C3AC /* Build configuration list for PBXProject "paipable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D280FA851E0511AC0093C3AC;
+			productRefGroup = D280FA8F1E0511AC0093C3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D280FA8D1E0511AC0093C3AC /* paipable */,
+				D280FAA31E0511AC0093C3AC /* paipableTests */,
+				D280FAAE1E0511AC0093C3AC /* paipableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D280FA8C1E0511AC0093C3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D280FA9E1E0511AC0093C3AC /* LaunchScreen.storyboard in Resources */,
+				D280FA9B1E0511AC0093C3AC /* Assets.xcassets in Resources */,
+				D280FA991E0511AC0093C3AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D280FAA21E0511AC0093C3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D280FAAD1E0511AC0093C3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D280FA8A1E0511AC0093C3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D280FA961E0511AC0093C3AC /* SecondViewController.swift in Sources */,
+				D280FA921E0511AC0093C3AC /* AppDelegate.swift in Sources */,
+				D280FA941E0511AC0093C3AC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D280FAA01E0511AC0093C3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D280FAA91E0511AC0093C3AC /* paipableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D280FAAB1E0511AC0093C3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D280FAB41E0511AC0093C3AC /* paipableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D280FAA61E0511AC0093C3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D280FA8D1E0511AC0093C3AC /* paipable */;
+			targetProxy = D280FAA51E0511AC0093C3AC /* PBXContainerItemProxy */;
+		};
+		D280FAB11E0511AC0093C3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D280FA8D1E0511AC0093C3AC /* paipable */;
+			targetProxy = D280FAB01E0511AC0093C3AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D280FA971E0511AC0093C3AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D280FA981E0511AC0093C3AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D280FA9C1E0511AC0093C3AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D280FA9D1E0511AC0093C3AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D280FAB61E0511AC0093C3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D280FAB71E0511AC0093C3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D280FAB91E0511AC0093C3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = paipable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whoplate.paipable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D280FABA1E0511AC0093C3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = paipable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whoplate.paipable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D280FABC1E0511AC0093C3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = paipableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whoplate.paipableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paipable.app/paipable";
+			};
+			name = Debug;
+		};
+		D280FABD1E0511AC0093C3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = paipableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whoplate.paipableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paipable.app/paipable";
+			};
+			name = Release;
+		};
+		D280FABF1E0511AC0093C3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = paipableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whoplate.paipableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = paipable;
+			};
+			name = Debug;
+		};
+		D280FAC01E0511AC0093C3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = paipableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whoplate.paipableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = paipable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D280FA891E0511AC0093C3AC /* Build configuration list for PBXProject "paipable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D280FAB61E0511AC0093C3AC /* Debug */,
+				D280FAB71E0511AC0093C3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D280FAB81E0511AC0093C3AC /* Build configuration list for PBXNativeTarget "paipable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D280FAB91E0511AC0093C3AC /* Debug */,
+				D280FABA1E0511AC0093C3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D280FABB1E0511AC0093C3AC /* Build configuration list for PBXNativeTarget "paipableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D280FABC1E0511AC0093C3AC /* Debug */,
+				D280FABD1E0511AC0093C3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D280FABE1E0511AC0093C3AC /* Build configuration list for PBXNativeTarget "paipableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D280FABF1E0511AC0093C3AC /* Debug */,
+				D280FAC01E0511AC0093C3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D280FA861E0511AC0093C3AC /* Project object */;
+}
